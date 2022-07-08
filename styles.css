@@ -34,11 +34,12 @@
 }
 
 .title-gold h3 {
+  overflow: hidden;
   font-weight: 600;
   font-size: 27.34px;
-  line-height: 146%;
+  line-height: 100%;
   color: #fdee87;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .title-blue h3 {
@@ -54,7 +55,6 @@
   font-size: 14px;
   line-height: 150%;
   color: white;
-  padding: 10px;
 }
 
 .btn {
@@ -723,6 +723,9 @@
   justify-content: space-between;
   margin: 20px 0;
 }
+.kayak__top-left p {
+  margin-bottom: 10px;
+}
 .kayak__bot {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -835,7 +838,7 @@
   background-color: #1f59f8;
 }
 .footer__wrap {
-  padding: 50px;
+  padding: 104px;
   display: flex;
   justify-content: space-between;
 }
@@ -868,9 +871,12 @@
   text-align: right;
 }
 .footer__copy {
-  display: flex;
-  justify-content: right;
-  padding: 0 36px 42px 0;
+  text-align: right;
+  padding-right: 104px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 12px;
+  margin: 28px 0;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1279,5 +1285,18 @@
   .footer__copy {
     justify-content: center;
     text-align: center;
+  }
+
+  .hr-top {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .box__bot-ele:nth-of-type(2) .box__grid {
+    padding: 10px 40px;
+  }
+
+  .box__bot-ele:nth-of-type(2) {
+    margin: 0;
   }
 }/*# sourceMappingURL=styles.css.map */
