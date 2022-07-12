@@ -1,0 +1,13 @@
+.product__wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.product__imgArea {
+  max-width: 794px;
+  width: 100%;
+}
+.product__img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=products.css.map */

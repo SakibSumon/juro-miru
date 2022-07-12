@@ -883,11 +883,9 @@
   .property__bot {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .property__bot-col {
     padding: 0 100px;
   }
-
   .kayak__bot {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -897,31 +895,25 @@
   * {
     overflow-x: hidden;
   }
-
   .sleep__wrap {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .sleep__left {
     height: 550px;
     margin: 20px 0;
     margin-top: 0;
   }
-
   .sleep__right {
     height: 550px;
   }
-
   .friend__element {
     flex-direction: column;
     height: 700px;
   }
-
   .chain__element {
     flex-direction: column;
     height: 700px;
   }
-
   .fff {
     padding: 20px 0;
     display: flex;
@@ -931,53 +923,42 @@
     gap: 42px;
     justify-content: center;
   }
-
   .feature__item {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin: 30px 0;
   }
-
   .feature__item-imgArea {
     margin: auto;
   }
-
   .feature__item-col {
     border: 1px solid #e3dede;
   }
-
   .bottle__item {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin: 30px 0;
   }
-
   .bottle__item-imgArea {
     margin: auto;
   }
-
   .bottle__item-col {
     border: 1px solid #e3dede;
   }
-
   .bottle__desc {
     padding: 40px 40px;
   }
-
   .philosophy__element {
     flex-direction: column-reverse;
   }
-
   .philosophy__col:nth-of-type(even) {
     min-height: 400px;
     margin: 0 20px;
   }
-
   .philosophy__center {
     gap: 16px;
     padding: 40px 30px;
   }
-
   .philosophy__center div:nth-of-type(3) {
     margin-top: 36px;
   }
@@ -986,11 +967,9 @@
   .nav__left {
     display: none;
   }
-
   .nav__right {
     display: none;
   }
-
   .nav__ham {
     display: block;
     box-sizing: border-box;
@@ -998,20 +977,16 @@
     position: relative;
     top: 10px;
   }
-
   .nav__middle {
     margin: 0;
   }
-
   .nav__wrap {
     padding: 0 30px;
   }
-
   .form__element {
     flex-direction: column-reverse;
     height: 800px;
   }
-
   .form__col:nth-of-type(even) {
     background-color: #1f59f8;
     background-image: url(img/Group\ 467.png);
@@ -1029,17 +1004,14 @@
     padding: 0 28px;
     justify-items: center;
   }
-
   .footer__wrap {
     flex-direction: column;
   }
-
   .footer__left {
     margin: auto;
     margin-bottom: 50px;
     text-align: center;
   }
-
   .footer__right {
     margin: auto;
     text-align: center;
@@ -1049,11 +1021,9 @@
   .japan__wrap {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .property__bot-col {
     padding: 0 40px;
   }
-
   .bottle__bot-col {
     padding: 0 40px;
   }
@@ -1062,15 +1032,12 @@
   .property__bot {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .property__bot-col {
     padding: 0 80px;
   }
-
   .bottle__bot {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .bottle__bot-col {
     padding: 0 80px;
   }
@@ -1081,14 +1048,12 @@
     height: auto;
     gap: 30px;
   }
-
   .sleep__right-col1 {
     height: 500px;
     width: 70%;
     margin: auto;
     margin-bottom: 20px;
   }
-
   .sleep__right-col2 {
     height: 500px;
     width: 70%;
@@ -1100,7 +1065,6 @@
     grid-template-columns: repeat(1, 1fr);
     margin: 30px 30px;
   }
-
   .feature__item-col {
     border: 1px solid #e3dede;
     box-shadow: 1px 3px 24px rgba(0, 0, 0, 0.2);
@@ -1109,26 +1073,21 @@
     width: 70%;
     margin: auto;
   }
-
   .feature__desc {
     padding: 40px 29px;
   }
-
   .feature__top {
     flex-direction: column;
     padding: 40px 35px;
     gap: 18px;
   }
-
   .feature__item-img {
     height: 236px;
   }
-
   .bottle__item {
     grid-template-columns: repeat(1, 1fr);
     margin: 30px 30px;
   }
-
   .bottle__item-col {
     border: 1px solid #e3dede;
     box-shadow: 1px 3px 24px rgba(0, 0, 0, 0.2);
@@ -1137,17 +1096,14 @@
     width: 70%;
     margin: auto;
   }
-
   .bottle__desc {
     padding: 40px 29px;
   }
-
   .bottle__top {
     flex-direction: column;
     padding: 40px 35px;
     gap: 18px;
   }
-
   .bottle__item-img {
     height: 236px;
   }
@@ -1156,37 +1112,29 @@
   .container {
     padding: 0 28px;
   }
-
   .section-margin {
     margin: 30px 0;
   }
-
   .header__wrap {
     height: 48vh;
   }
-
   .header-title h1 {
     font-weight: 500;
     font-size: 34px;
     line-height: 102%;
   }
-
   .btn {
     padding: 11px 22px;
   }
-
   .btn-solid {
     padding: 11px 22px;
   }
-
   .content-name {
     font-size: 12px;
   }
-
   .sleep__left {
     height: 400px;
   }
-
   .title-gold h3 {
     font-size: 22px;
     line-height: 120%;
@@ -1194,41 +1142,33 @@
     overflow: hidden;
     padding: 10px;
   }
-
   .title-blue h3 {
     font-size: 22px;
   }
-
   .title-sub p {
     line-height: 130%;
     font-size: 12px;
   }
-
   .sleep__right-col1 {
     height: 400px;
     width: 100%;
     margin: auto;
     margin-bottom: 20px;
   }
-
   .sleep__right-col2 {
     height: 400px;
     width: 100%;
     margin: auto;
   }
-
   .lb {
     display: none;
   }
-
   .sleep__logo {
     padding-right: 25px;
   }
-
   .fff {
     gap: 40px;
   }
-
   .japan__wrap .japan__right,
 .japan__wrap .japan__left {
     height: 160px;
@@ -1245,57 +1185,44 @@
   .japan__wrap .japan__left-circle {
     display: none;
   }
-
   .japan__longev {
     font-size: 25px;
   }
-
   .property__bot-col {
     padding: 20px 40px;
   }
-
   .property__title h4 {
     font-size: 20px;
   }
-
   .bottle__bot-col {
     padding: 20px 40px;
   }
-
   .bottle__title h4 {
     font-size: 20px;
   }
-
   .form__col-title {
     padding: 0 30px;
   }
-
   .form__element {
     height: 650px;
   }
-
   .form__col:first-child {
     padding: 50px 0;
   }
-
   .footer__left {
     flex-direction: column;
   }
-
   .footer__copy {
     justify-content: center;
     text-align: center;
   }
-
   .hr-top {
     margin-bottom: 50px;
     margin-top: 50px;
   }
-
   .box__bot-ele:nth-of-type(2) .box__grid {
     padding: 10px 40px;
   }
-
   .box__bot-ele:nth-of-type(2) {
     margin: 0;
   }
