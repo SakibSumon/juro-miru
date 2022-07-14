@@ -14,5 +14,25 @@
   }
 
   &__right {
+    padding-left: 100px;
   }
+
+  &__right_elem {
+    display: flex;
+    gap: 20px;
+
+    & a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.dot {
+    margin-bottom: 2px;
+  height: 4px;
+  width: 4px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #1f59f8;
 }

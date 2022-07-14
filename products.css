@@ -10,4 +10,24 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.product__right {
+  padding-left: 100px;
+}
+.product__right_elem {
+  display: flex;
+  gap: 20px;
+}
+.product__right_elem a {
+  text-decoration: none;
+  color: black;
+}
+
+.dot {
+  margin-bottom: 2px;
+  height: 4px;
+  width: 4px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #1f59f8;
 }/*# sourceMappingURL=products.css.map */
