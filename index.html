@@ -6,6 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .main-tra {
+        transition: all 0.5s;
+      }
+
+      .main {
+        padding: 0 50px;
+        width: 100%;
+        height: 700px;
+
+        display: flex;
+        transition: all 0.5s;
+        gap: 20px;
+      }
+
+      .main div:nth-of-type(1) {
+        flex-grow: 1;
+        transition: all 0.5s;
+      }
+      .main div:nth-of-type(2) {
+        flex-grow: 1;
+        transition: all 0.5s;
+      }
+      .main div:nth-of-type(3) {
+        flex-grow: 1;
+        transition: all 0.5s;
+      }
+
+      .main div:nth-of-type(1):hover {
+        flex-grow: 4;
+        transition: all 0.5s;
+      }
+
+      .main div:nth-of-type(2):hover {
+        flex-grow: 4;
+        transition: all 0.5s;
+      }
+
+      .main div:nth-of-type(3):hover {
+        flex-grow: 4;
+        transition: all 0.5s ease-in-out;
+      }
+
+      /* #main div:nth-of-type(4) {
+        flex-grow: 1;
+      }
+      #main div:nth-of-type(5) {
+        flex-grow: 1;
+      } */
+    </style>
   </head>
 
   <body>
@@ -27,7 +78,15 @@
         </div>
         <div class="nav__right">
           <ul>
-            <li><a href="">GBP &#163; &#10095;</a></li>
+            <li><a href="">GBP &#163; </a></li>
+            <div class="slect__div">
+              <select class="select" style="border: none">
+                <option value="0"><p>Change Currency</p></option>
+                <option value="1">Audi</option>
+                <option value="2">BMW</option>
+                <option value="3">Citroen</option>
+              </select>
+            </div>
             <li class="nav__vl"><a href=""> </a></li>
             <li>
               <a href=""> <img src="img/nav-link-icon.png" alt="" /></a>
@@ -54,7 +113,7 @@
             <h1>Choose to live long</h1>
           </div>
           <div class="header__btn-position">
-            <div class="btn">Watch Full</div>
+            <div class="btn-solid">Watch Full</div>
           </div>
         </div>
       </div>
@@ -67,7 +126,7 @@
       </div>
     </section>
 
-    <section class="sleep section-margin">
+    <!-- <section class="sleep section-margin">
       <div class="sleep__wrap container">
         <div class="sleep__left">
           <div class="black-back"></div>
@@ -139,27 +198,110 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
+    <!-- <section class="grow">
+      <div class="grow__wrap container">
+        <div class="grow__col">
+         <div>
+           <img
+            class="grow__img"
+            src="img/Screenshot 2021-06-08 at 13.52 1.png"
+            alt=""
+          />
+         </div>
+        </div>
+        <div class="grow__col">
+          <img
+            class="grow__img"
+            src="img/Screenshot 2021-06-08 at 13.52 1.png"
+            alt=""
+          />
+        </div>
+        <div class="grow__col">
+          <img
+            class="grow__img"
+            src="img/Screenshot 2021-06-08 at 13.52 1.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section> -->
+
+    <div class="main-tra">
+      <div class="main">
+        <div class="main__col">
+          <div class="main__left-element">
+            <div class="main__left-text">
+              <div class="main__left-title title-gold">
+                <h3>Achieve More</h3>
+              </div>
+              <div class="main__left-sub title-sub">
+                <p>
+                  Dial-up your day with our smart fabric<br class="lb" />
+                  activewear and sleepwear.
+                </p>
+              </div>
+            </div>
+            <div class="main__left-logo">
+              <img class="sleep__logo" src="img/gold-circle.png" alt="" />
+            </div>
+          </div>
+          <div class="sleep-btn">
+            <div class="btn">Watch Full</div>
+          </div>
+        </div>
+        <div class="main__col">
+          <div class="main__left-element">
+            <div class="main__left-text">
+              <div class="main__left-title title-gold">
+                <h3>Achieve More</h3>
+              </div>
+              <div class="main__left-sub title-sub">
+                <p>
+                  Dial-up your day with our smart fabric<br class="lb" />
+                  activewear and sleepwear.
+                </p>
+              </div>
+            </div>
+            <div class="main__left-logo">
+              <img class="sleep__logo" src="img/gold-circle.png" alt="" />
+            </div>
+          </div>
+
+          <div class="sleep-btn">
+            <div class="btn">Watch Full</div>
+          </div>
+        </div>
+        <div class="main__col">
+          <div class="main__left-element">
+            <div class="main__left-text">
+              <div class="main__left-title title-gold">
+                <h3>Achieve More</h3>
+              </div>
+              <div class="main__left-sub title-sub">
+                <p>
+                  Dial-up your day with our smart fabric<br class="lb" />
+                  activewear and sleepwear.
+                </p>
+              </div>
+            </div>
+            <div class="main__left-logo">
+              <img class="sleep__logo" src="img/gold-circle.png" alt="" />
+            </div>
+          </div>
+          <div class="sleep-btn">
+            <div class="btn">Watch Full</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section class="friend section-margin">
       <div class="friend__wrap">
         <div class="friend__element">
           <div class="friend__col"></div>
           <div class="friend__col">
-            <!-- <div class="friend__center">
-             <div class="friend__title title-gold">
-                <h3>
-                  Go Beyond <br />
-                  Your Borders
-                </h3>
-                <div class="friend-btn">
-                  <div class="btn">Shop Now</div>
-                </div>
-              </div> 
-
-              
-            </div> -->
-
             <div class="fff title-gold">
               <h3 class="">Go Beyond</h3>
               <div class="friend-btn">
@@ -322,7 +464,7 @@
           </div>
           <div class="japan__right-text">
             <div class="japan__right-top">
-             
+
               <h3>Optimum Longevity</h3>
             </div>
             <div class="japan__right-bot">
@@ -491,9 +633,9 @@
                 <div class="friend-btn">
                   <div class="btn">Shop Now</div>
                 </div>
-              </div> 
+              </div>
 
-              
+
             </div> -->
 
             <div class="fff title-gold">
@@ -787,7 +929,7 @@
           <div class="footer__left-col">
             <ul>
               <li><a href="">Company</a></li>
-              <li><a href="">validity</a></li>
+              <li><a href="">Validity</a></li>
               <li><a href="">Technology</a></li>
               <li><a href="">Lifstyle</a></li>
               <li><a href="">About</a></li>
@@ -796,22 +938,21 @@
           </div>
           <div class="footer__left-col">
             <ul>
-              <li><a href="">Company</a></li>
-              <li><a href="">validity</a></li>
-              <li><a href="">Technology</a></li>
-              <li><a href="">Lifstyle</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Blog</a></li>
+              <li><a href="">Terms and policies</a></li>
+              <li><a href="">Pre-Order Terms & Conditions</a></li>
+              <li><a href="">Statement & Code of Conduct</a></li>
+              <li><a href="">Shipping</a></li>
+
+              <li><a href="">Duties and Taxes</a></li>
+              <li><a href="">Terms and Policies</a></li>
+              <li><a href="">Modern Slavery Statemnt</a></li>
             </ul>
           </div>
           <div class="footer__left-col">
             <ul>
-              <li><a href="">Company</a></li>
-              <li><a href="">validity</a></li>
-              <li><a href="">Technology</a></li>
-              <li><a href="">Lifstyle</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Blog</a></li>
+              <li><a href="">customer Care</a></li>
+              <li><a href="">help and FAQs</a></li>
+              <li><a href="">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -826,9 +967,9 @@
       </div>
     </section>
 
-    <div class="custom-select" style="width: 200px">
-      <select>
-        <option value="0">Select car:</option>
+    <div>
+      <select class="select" style="border: none">
+        <option value="0">&#9658;</option>
         <option value="1">Audi</option>
         <option value="2">BMW</option>
         <option value="3">Citroen</option>
