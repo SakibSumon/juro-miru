@@ -1058,6 +1058,10 @@
   margin: 28px 0;
 }
 
+.title-gold-center {
+  justify-content: center !important;
+}
+
 @media only screen and (max-width: 1200px) {
   .property__bot {
     grid-template-columns: repeat(2, 1fr);
